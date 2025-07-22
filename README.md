@@ -1,4 +1,4 @@
-# Cloud Microservices Mystery Box Application 
+# Cloud Microservices Mystery Box Application (In Progress)
 
 This project demonstrates a microservices architecture deployed on AWS, integrating frontend and backend services with secure authentication and scalable infrastructure.
 
@@ -8,6 +8,18 @@ This project demonstrates a microservices architecture deployed on AWS, integrat
 
 <img width="1920" height="1034" alt="image" src="https://github.com/user-attachments/assets/e5f9dc8c-4a1f-41be-96ab-0fdd38eea8e2" />
 
+
+---
+## Goals and Trade-offs
+
+Goal: Build a cloud-native microservice application while staying within the AWS Free Tier as much as possible. As a student, I understand this comes with certain limitations, but it's a practical way for me to gain hands-on experience with real-world cloud infrastructure at minimal cost.
+
+Limitations:
+
+- RDS Instance is not highly available or resistant to failure due to being in one subnet which leaves it in one AZ
+  - Hypothetical Solution: I would use RDS Multi-AZ + Read Replicas to allow for failover in case of AZ outages, reduce downtime during maintenance, and improve read scalability for high-traffic workloads. This setup ensures better fault tolerance and performance but incurs additional cost outside the Free Tier.
+- EC2 application instances are not highly available due to being deployed in a single Availability Zone (AZ), creating a single point of failure.
+  - Hypothetical Solution: I would deploy multiple EC2 instances across multiple AZs behind an Elastic Load Balancer (ELB) to ensure high availability, distribute traffic evenly, and maintain       uptime during AZ outages or instance failures. This architecture improves resilience but exceeds Free Tier limits.
 
 ---
 
@@ -97,9 +109,19 @@ This project demonstrates a microservices architecture deployed on AWS, integrat
 - EC2 instances are in a public subnet, but only expose necessary services.
 - Secure communication enforced throughout.
 
+
+## Currently Working
+
+- Finishing up UI
+- Choosing between hosting frontend on Amplify or S3 + CDN
+- Due to Spring Cloud version compatability issues, I have to reimplement service-service-communication using OpenFeign
+
+
+
 ---
 
 ## License
 
 This project is licensed under the MIT License.  
 See the [LICENSE](LICENSE) file for details.
+
