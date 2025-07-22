@@ -1,2 +1,5 @@
-.idea
 .env
+.gitignore
+node_modules
+.idea
+.gitattributes
