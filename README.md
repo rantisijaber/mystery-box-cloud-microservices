@@ -55,7 +55,7 @@ Limitations:
 
 ## Sign Up Flow
 
-<img width="1026" height="596" alt="image" src="https://github.com/user-attachments/assets/599a3429-c96c-40c9-88b4-a3a644b9cd9b" />
+<img width="1030" height="572" alt="image" src="https://github.com/user-attachments/assets/1b62660b-7a67-4151-9639-80d1e1162a1d" />
 
 ### 1. User Authentication
 1. User initiates first-time sign-in after registration
