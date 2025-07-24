@@ -6,7 +6,7 @@ This project demonstrates a microservices architecture deployed on AWS, integrat
 
 ## Architecture Diagram
 
-![Project Architecture](project_architecture.png)
+![Project Architecture](project_arch.png)
 
 
 ---
