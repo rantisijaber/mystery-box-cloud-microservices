@@ -6,7 +6,7 @@ This project demonstrates a microservices architecture deployed on AWS, integrat
 
 ## Architecture Diagram
 
-<img width="1920" height="1034" alt="image" src="https://github.com/user-attachments/assets/e5f9dc8c-4a1f-41be-96ab-0fdd38eea8e2" />
+![Project Architecture](project_architecture.png)
 
 
 ---
@@ -55,7 +55,7 @@ Limitations:
 
 ## Sign Up Flow
 
-<img width="1030" height="572" alt="image" src="https://github.com/user-attachments/assets/1b62660b-7a67-4151-9639-80d1e1162a1d" />
+![User Sync](user_sync.png)
 
 ### 1. User Authentication
 1. User initiates first-time sign-in after registration
