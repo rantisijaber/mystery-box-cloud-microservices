@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8906063-5efb-4823-a6ac-4da804c28467" name="Changes" comment="Cleanup">
-      <change afterPath="$PROJECT_DIR$/backend/mystery-box-service/src/main/java/com/jaberrantisi/mystery_box_service/config/EntityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pandora.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mystery-box-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mystery-box-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mystery-box-service/src/main/java/com/jaberrantisi/mystery_box_service/controller/MysteryBoxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mystery-box-service/src/main/java/com/jaberrantisi/mystery_box_service/controller/MysteryBoxController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mystery-box-service/src/main/java/com/jaberrantisi/mystery_box_service/service/MysteryBoxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mystery-box-service/src/main/java/com/jaberrantisi/mystery_box_service/service/MysteryBoxService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rantisijaber/mystery-box-cloud-microservices",
+    "accountId": "4a30c819-23f9-4d91-b9ab-6128c14cbc30"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
