@@ -29,18 +29,24 @@ public class MysteryBoxController {
     }
 
     @PostMapping("/buy-box")
-    public ResponseEntity<String> buyBox(@AuthenticationPrincipal Jwt jwt,
-                                         @RequestBody MysteryBox mysteryBox) {
+    public ResponseEntity<String> buyBox(@AuthenticationPrincipal Jwt jwt, @RequestBody MysteryBox mysteryBox) {
         int price = mysteryBox.getPrice();
         String sub = jwt.getSubject();
         userVCService.makePurchase(price, sub);
 
         return ResponseEntity.ok("Box purchased");
     }
+
     @GetMapping("/all-boxes")
     public ResponseEntity<List<MysteryBox>> getAllMysteryBoxes() {
         List<MysteryBox> allMysteryBoxes = mysteryBoxService.getAllMysteryBoxes();
         return ResponseEntity.ok(allMysteryBoxes);
+    }
+
+    @GetMapping("/filtered-boxes")
+    public ResponseEntity<List<MysteryBox>> getFilteredMysteryBoxes(@RequestParam int maxPrice) {
+        List<MysteryBox> filteredMysteryBoxes = mysteryBoxService.getFilteredMysteryBoxes(maxPrice);
+        return ResponseEntity.ok(filteredMysteryBoxes);
     }
 
 
