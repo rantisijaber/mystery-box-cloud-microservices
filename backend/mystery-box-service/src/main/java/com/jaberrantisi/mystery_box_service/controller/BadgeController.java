@@ -15,7 +15,8 @@ import org.springframework.security.oauth2.jwt.Jwt;
 import java.util.List;
 import java.util.UUID;
 
-@RestController("/badge")
+@RestController
+@RequestMapping("/badge")
 public class BadgeController {
     private final BadgeService badgeService;
     private final UserVirtualCurrencyService userVCService;

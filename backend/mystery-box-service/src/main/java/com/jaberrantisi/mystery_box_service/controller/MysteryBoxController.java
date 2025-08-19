@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@RestController("/mystery-box")
+@RestController
+@RequestMapping("/mystery-box")
 public class MysteryBoxController {
     private final MysteryBoxService mysteryBoxService;
     private final BadgeService badgeService;

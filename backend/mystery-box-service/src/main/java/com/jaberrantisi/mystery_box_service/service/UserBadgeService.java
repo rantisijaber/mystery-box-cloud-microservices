@@ -36,6 +36,5 @@ public class UserBadgeService {
                 .badgeType(badge)
                 .build();
         return userBadgeRepo.save(userBadge);
-
     }
 }

@@ -27,4 +27,5 @@ public class MysteryBoxService {
                 .filter(mysteryBox -> mysteryBox.getPrice() < maxPrice)
                 .toList();
     }
+    
 }
