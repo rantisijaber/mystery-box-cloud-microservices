@@ -1,4 +1,4 @@
-# Cloud Microservices Mystery Box Application (ARCHIVED VERSION)
+# Cloud Microservices Mystery Box Application (ARCHIVED VERSION) (Moved to: https://github.com/rantisijaber/mystery-box-opener-Cloud-Native-Microservices-)
 
 This project demonstrates a microservices architecture deployed on AWS, integrating frontend and backend services with secure authentication and scalable infrastructure.
 
