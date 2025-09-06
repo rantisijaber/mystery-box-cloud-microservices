@@ -1,4 +1,4 @@
-# Cloud Microservices Mystery Box Application (In Progress)
+# Cloud Microservices Mystery Box Application (ARCHIVED VERSION)
 
 This project demonstrates a microservices architecture deployed on AWS, integrating frontend and backend services with secure authentication and scalable infrastructure.
 
